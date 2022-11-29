@@ -1,5 +1,5 @@
 # Data Structure Course Project
-The map of Tehran and the graph corresponding to it is as shown below. We want to find the shortest path between two arbitrary nodes in this graph.
+The map of Tehran and the graph corresponding to it are as shown below. We want to find the shortest path between two arbitrary nodes in this graph.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/93929227/204488691-e6f63f41-4977-4b05-822d-d9abad0dc991.png" width="70%" height="70%">
