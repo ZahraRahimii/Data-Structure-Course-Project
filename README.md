@@ -9,10 +9,11 @@ The most important methods and classes are:
 * Vertex class: Initialize every vertex with the x, y, and the id
 * Edge class: Define the edge between two vertexes with source vertex, destination vertex, amount of traffic, and weight
 * RootingGraph:
- * initialize(): Initialize the vertexes and edges by reading from the input texts
- * dijkstra(): Run the Dijkstra algorithhm for the input source and destination vertex
-
+  * initialize(): Initialize the vertexes and edges by reading from the input texts
+  * dijkstra(): Run the Dijkstra algorithhm for the input source and destination vertex
+<p align="center">
  ![image](https://user-images.githubusercontent.com/93929227/204491693-490bfb1a-f8e8-4af1-88e6-b8c9fa24b596.png)
+<p/>
 
 * MinHeap: Keep unexplored nodes in a MinHeap so that in the Dijkstra algorithm (line 7), the next node would be found in O(1)
- * idToIndexInTraffic: HashMap will help us find the node that will be updated in O(1) by keeping that node's index in the MinHeap in idToIndexInTraffic.
+  * idToIndexInTraffic: HashMap will help us find the node that will be updated in O(1) by keeping that node's index in the MinHeap in idToIndexInTraffic.
