@@ -12,7 +12,7 @@ The most important methods and classes are:
   * initialize(): Initialize the vertexes and edges by reading from the input texts
   * dijkstra(): Run the Dijkstra algorithhm for the input source and destination vertex
 <p align="center">
-<img src="https://user-images.githubusercontent.com/93929227/204491693-490bfb1a-f8e8-4af1-88e6-b8c9fa24b596.png">
+<img src="https://user-images.githubusercontent.com/93929227/204496732-8a81923e-804e-4eb6-9336-27ee43e53f5d.png">
 <p/>
 
 * MinHeap: Keep unexplored nodes in a MinHeap so that in the Dijkstra algorithm (line 7), the next node would be found in O(1)
